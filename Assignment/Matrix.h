@@ -9,6 +9,7 @@ public:
     void takeInput();                                // take input from the user and store in the matrix
     void showAdditionResult(const Matrix& m2);       // show addition result if addition is possible
     void showMultiplicationResult(const Matrix& m2); // show multiplication result if multiplication is possible
+    void printMatrix();
     Matrix(const Matrix& m);                         // Copy Constructor
     Matrix& operator=(const Matrix& m);              // assignment operator overloaded
     ~Matrix();                                       // destructor

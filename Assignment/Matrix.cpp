@@ -125,6 +125,19 @@ void Matrix::showMultiplicationResult(const Matrix& m2)
 	}
 }
 
+void Matrix::printMatrix()
+{
+	for (int i = 0; i < rows; i++)
+	{
+		for (int j = 0; j < cols; j++) 
+		{
+			cout << matrix[i][j] << " ";
+		}
+		cout << endl;
+	}
+	cout << endl;
+}
+
 // destructor
 Matrix::~Matrix()
 {
