@@ -51,7 +51,7 @@ void Vector::insert(const int num)
 	{
 		size *= 2;
 		int* temp = new int[size];
-		for (int i = 0; i < size; i++)
+		for (int i = 0; i < elements; i++)
 		{
 			temp[i] = numbers[i];
 		}
